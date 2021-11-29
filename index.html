@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+	.container1
+    {
+        width: 768px;
+        height: 215px;
+        overflow: scroll;
+        overflow-x: hidden;
+        -webkit-resize: vertical;
+        -moz-resize: vertical;
+        resize: vertical;
+        overflow-y: hidden;
+    }
+    .container2
+    {
+        width: 768px;
+        height: 835px;
+        overflow: scroll;
+        overflow-x: hidden;
+        -webkit-resize: vertical;
+        -moz-resize: vertical;
+        resize: vertical;
+        overflow-y: hidden;
+    }
+	.iframe1 {
+		width: 800px;
+		height: 211px;
+        overflow: hidden;
+        -webkit-resize: none;
+        -moz-resize: none;
+        resize: none;
+		border: none;
+    }
+    .iframe2 {
+        width: 560px;
+        height: 880px;
+        margin-left: -40px;
+        margin-top: -400px;
+        overflow: hidden;
+        -webkit-resize: none;
+        -moz-resize: none;
+        resize: none;
+        -ms-zoom: 1.5;
+        -moz-transform: scale(1.5);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(1.5);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(1.5);
+        -webkit-transform-origin: 0 0;
+		border: none;
+    }
+    
+    </style>
+    <meta http-equiv="refresh" content="120">
+</head>
+<body style="width:768px; height: 1024px">
+
+	<div class="container1">
+		<iframe class="iframe1" src="http://www.theweather.com/wimages/foto2c21b05ffa3b1c93941c0fc72f0a0ed5.png"></iframe>
+	</div>
+    <div class="container2">
+        <iframe class="iframe2" src="http://www.bom.gov.au/products/IDR713.loop.shtml"></iframe>
+    </div>
+</body>
+</html>
